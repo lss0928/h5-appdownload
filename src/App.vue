@@ -1,7 +1,8 @@
 <template>
 <div id="app">
     <img src="@/assets/app.png" alt="">
-    <button class="download-btn" @click="download">立即下载</button>
+    <!-- <button class="download-btn" @click="download">立即下载</button> -->
+    <van-button type="primary" @click="download">立即下载</van-button>
     <div class="mask" v-show="showMask">
         <div class="box">请点击右上角按钮 使用浏览器打开</div>
     </div>
